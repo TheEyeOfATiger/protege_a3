@@ -1,0 +1,2 @@
+# proteje_a3
+Protege-OWL API Programmer's Guide  The Protege-OWL API is an open-source Java library for the Web Ontology Language (OWL) and RDF(S). The API provides classes and methods to load and save OWL files, to query and manipulate OWL data models, and to perform reasoning based on Description Logic engines. Furthermore, the API is optimized for the implementation of graphical user interfaces.
