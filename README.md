@@ -9,7 +9,7 @@ Protege-OWL API Programmer's Guide  The Protege-OWL API is an open-source Java l
 4. Arvinte Rares
 5. Vanatoru Razvan
 
-# Adaugare plugin
+# Adaugare plugin:
 
 6. Stefan Onu (Teamleader)
 7. Popa Anca
@@ -17,7 +17,7 @@ Protege-OWL API Programmer's Guide  The Protege-OWL API is an open-source Java l
 9. Bodnar Ana Maria
 10. Carp/Savin Paula
 
-# Documentare protege
+# Documentare protege:
 
 11. Pintilie Cosmin
 12. Moisa Edi
@@ -30,15 +30,17 @@ Protege-OWL API Programmer's Guide  The Protege-OWL API is an open-source Java l
 19. Gherman Dan
 20. Purice Ciprian
 
-# Validare ontologii [OWL] (https://github.com/protegeproject/protege-owlapi/blob/master/src/main/java/org/protege/owlapi/rdf/Validator.java)
+# Validare ontologii [OWL]:
+(https://github.com/protegeproject/protege-owlapi/blob/master/src/main/java/org/protege/owlapi/rdf/Validator.java)
 
 21. Beniamin Jitca
 22. Theodora Varvaroi
 23. Prisecaru Codrina
 
-# Si eu
+# Si eu:
 
 24. Lazar Samuel
 
-# Profesor coordonator: Raschip Madalina
+# Profesor coordonator:
+Raschip Madalina
 
