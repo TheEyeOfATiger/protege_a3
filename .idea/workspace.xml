@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82d6717c-17f2-48f9-bf72-7e1dc7027adf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentare_protege/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/validare_ontologii/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/validare_text/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/adaugare_plugin/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/adaugare_plugin/readme.md" afterPath="$PROJECT_DIR$/adaugare_plugin/readme.md" />
     </list>
     <ignored path="protege_a3.iws" />
@@ -31,7 +29,17 @@
         <entry file="file://$PROJECT_DIR$/adaugare_plugin/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="18" />
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -47,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validare_text/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -75,10 +83,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/adaugare_plugin/README.md" />
         <option value="$PROJECT_DIR$/documentare_protege/README.md" />
         <option value="$PROJECT_DIR$/validare_ontologii/README.md" />
         <option value="$PROJECT_DIR$/validare_text/README.md" />
+        <option value="$PROJECT_DIR$/adaugare_plugin/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -247,12 +256,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512986962044</updated>
-      <workItem from="1512986963230" duration="196000" />
+      <workItem from="1512986963230" duration="359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196000" />
+    <option name="totallyTimeSpent" value="359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -300,18 +309,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adaugare_plugin/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/validare_text/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adaugare_plugin/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
