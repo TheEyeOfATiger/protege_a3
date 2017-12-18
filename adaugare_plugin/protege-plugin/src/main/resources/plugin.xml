@@ -6,7 +6,7 @@
 	<!-- Tabs -->
 	
 	<extension id="ExampleWorkspaceTab" point="org.protege.editor.core.application.WorkspaceTab">
-		<label value="Validation Text"/>
+		<label value="Example Tab"/>
 		<class value="org.protege.editor.owl.ui.OWLWorkspaceViewsTab"/>
 		<index value="X"/>
 		<editorKitId value="OWLEditorKit"/>
@@ -33,24 +33,13 @@
 	<!-- Menu and menu items -->
 
 
-    <extension id="topmenu" point="org.protege.editor.core.application.EditorKitMenuAction">
-        <name value="Check the Text"/>
-        <path value="/SlotG-A"/>
-        <editorKitId value="any"/>
-    </extension>
 
-    <extension id="submenu" point="org.protege.editor.core.application.EditorKitMenuAction">
-        <name value="Just a submenu"/>
-        <path value="${project.artifactId}.topmenu/SlotCR-A"/>
-	    <editorKitId value="OWLEditorKit"/>
-    </extension> 
+	<extension id="GetItemsFromOntology" point="org.protege.editor.core.application.EditorKitMenuAction">
+		<name value="Extract words from text"/>
+		<path value="org.protege.editor.owl.menu.tools/SlotJ-A"/>
+		<toolTip value="This example menu item appears in the Tools menu in a separate category"/>
+		<class value="edu.stanford.bmir.protege.examples.menu.GetItemsFromOntology"/>
+		<editorKitId value="any"/>
+	</extension>
 
-    <extension id="menu3" point="org.protege.editor.core.application.EditorKitMenuAction">
-        <name value="Validate"/>
-        <path value="${project.artifactId}.submenu/SlotA-A"/>
-        <toolTip value="This is an example submenu item"/>
-        <class value="edu.stanford.bmir.protege.examples.menu.UnderSubMenu"/>
-        <editorKitId value="any"/>
-    </extension>
-    
 </plugin>
