@@ -77,7 +77,7 @@ public class Interface {
             }
         }
 
-
+        System.out.println("Show the Properties List :");
         ArrayList<String> list = new ArrayList<String>();
         list = getPropertyList();
 
@@ -87,8 +87,8 @@ public class Interface {
             System.out.println(element);
         }
         System.out.println("Numar de proprietati : " + list.size());
-*/
 
+        System.out.println("Show the Classes List :");
         ArrayList<String> lista = new ArrayList<String>();
         lista = getClassList();
 
@@ -98,12 +98,164 @@ public class Interface {
             System.out.println(element);
         }
         System.out.println("Numar de clase : " + lista.size());
+        System.out.println("");
+
+        System.out.println("Add a Data Property : Ontology");
+        String newProperty = input.next();
+        addDataPropertyToOntology(newProperty);
+
+        System.out.println("Add a Individual : Ontology");
+        String newIndividual = input.next();
+        String newClass = input.next();
+        addIndividualToOntology(newIndividual, newClass);
 
 
+        getClassHierarchy(newClass);
+        addAnnotationForClass(newClass);
+        addAnnotationForObjectProperty(newProperty);
+        addAnnotationForDataProperty(newProperty);
+*/
+
+
+        // Class Hierarchy : bifat
+        // Annotation for Object Property : bifat
+        // Annotation for Class : bifat
+        // Annotation for Data Property : bifat
         //addLabelForProperty();
+
+        //// Java and Owl : Am ramas la Slide-ul :::
+        /*
+            Create Ontology Model
+            Read a File Into Ontology Model
+            Retrieve Ontology Class
+            Retrieve a Specified Class
+            Get the Ontology URI
+            Class Hierarchy
+            Intersection/Union/Complement
+            Retrieve the Properties of a Specified Class
+            Property Types
+            Property Domain and Range
+            Datatype Properties
+            Object Properties
+            Other Types of Properties
+            Restrictions
+            AllValuesFrom / SomeValuesFrom
+            HasValue
+            Cardinality / MinCardinality / MaxCardinality
+            Individuals
+
+            PLUSS -> Creating a New Ontology
+        */
+
 
         //close the Scanner
         input.close();
+    }
+
+
+    static void addAnnotationForDataProperty(String newProperty) {
+        OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+        String filename = "ontology.owl";
+        InputStream in = FileManager.get().open(filename);
+        model.read(in, null);
+        String uriBase = "http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12";
+
+        DatatypeProperty dataProperty = model.createDatatypeProperty(uriBase + "#" + newProperty);
+
+        dataProperty.addVersionInfo(String s);
+        dataProperty.addComment(String s, String s1);
+        dataProperty.addIsDefinedBy(Resource resource);
+        dataProperty.addLabel(String s, String s1);
+        dataProperty.addSeeAlso(Resource resource);
+
+        // salvez modificarile facute
+        writeToOntology(model);
+    }
+
+    static void addAnnotationForObjectProperty(String newProperty) {
+        OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+        String filename = "ontology.owl";
+        InputStream in = FileManager.get().open(filename);
+        model.read(in, null);
+        String uriBase = "http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12";
+
+        ObjectProperty ontProperty = model.createObjectProperty(uriBase + "#" + newProperty);
+
+        ontProperty.addVersionInfo(String s);
+        ontProperty.addComment(String s, String s1);
+        ontProperty.addIsDefinedBy(Resource resource);
+        ontProperty.addLabel(String s, String s1);
+        ontProperty.addSeeAlso(Resource resource);
+
+        // salvez modificarile facute
+        writeToOntology(model);
+    }
+
+    static void addAnnotationForClass(String newClass) {
+        OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+        String filename = "ontology.owl";
+        InputStream in = FileManager.get().open(filename);
+        model.read(in, null);
+        String uriBase = "http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12";
+
+        OntClass ontClass = model.getOntClass(uriBase + "#" + newClass);
+
+        ontClass.addVersionInfo(String s);
+        ontClass.addComment(String s, String s1);
+        ontClass.addIsDefinedBy(Resource resource);
+        ontClass.addLabel(String s, String s1);
+        ontClass.addSeeAlso(Resource resource);
+
+        // salvez modificarile facute
+        writeToOntology(model);
+    }
+
+    static void getClassHierarchy(String newClass) {
+        OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+        String filename = "ontology.owl";
+        InputStream in = FileManager.get().open(filename);
+        model.read(in, null);
+        String uriBase = "http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12";
+
+        OntClass ontClass = model.getOntClass(uriBase + "#" + newClass);
+        Iterator supIter = ontClass.listSuperClasses();
+        while (supIter.hasNext()) {
+            OntClass sup = (OntClass) supIter.next();
+            System.out.println(sup);
+        }
+        System.out.println("----------------");
+        Iterator subIter = ontClass.listSubClasses();
+        while (subIter.hasNext()) {
+            OntClass sub = (OntClass) subIter.next();
+            System.out.println(sub);
+        }
+    }
+
+    static void addIndividualToOntology(String newIndividual, String newClass) {
+        OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+        String filename = "ontology.owl";
+        InputStream in = FileManager.get().open(filename);
+        model.read(in, null);
+        String uriBase = "http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12";
+
+        OntClass ontClass = model.getOntClass(uriBase + "#" + newClass);
+        Individual indiv = ontClass.createIndividual(uriBase + "#" + newIndividual);
+
+        // salvez modificarile facute
+        writeToOntology(model);
+    }
+
+    static void addDataPropertyToOntology(String newProperty) {
+        OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+        String filename = "ontology.owl";
+        InputStream in = FileManager.get().open(filename);
+        model.read(in, null);
+        String uriBase = "http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12";
+
+        DatatypeProperty dataProperty = model.createDatatypeProperty(uriBase + "#" + newProperty);
+
+        // salvez modificarile facute
+        writeToOntology(model);
     }
 
     static ArrayList<String> getClassList() {
@@ -249,10 +401,6 @@ public class Interface {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
-    static void setupConfiguration() {
-
     }
 
 }
