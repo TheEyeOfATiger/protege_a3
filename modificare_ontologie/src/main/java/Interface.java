@@ -230,7 +230,7 @@ public class Interface {
 
 
     // !!!!!!!!!!!!!!!
-    // Functii Pentru A Elimina Liniile De Care Se Repeta
+    // Functii Pentru A Elimina Liniile Care Se Repeta
 
     static void writeToOntology(OntModel model) {
         File file = new File("C:\\Users\\Beniamin\\Documents\\IntelliJ Projects\\ModifyOntology\\ontology.owl");
