@@ -10,8 +10,8 @@ public class Main {
 
     public static void main(String args[]) {
         readOntology();
-        createOntology();
-        writeOntology();
+        //createOntology();
+        //writeOntology();
     }
 
     static void readOntology() {
@@ -24,6 +24,7 @@ public class Main {
 
             model.read(reader, null);
 
+            int numbers = 0;
             Iterator classIter = model.listClasses();
             while (classIter.hasNext()) {
                 OntClass ontClass = (OntClass)classIter.next();
@@ -34,9 +35,10 @@ public class Main {
                 }
                 if (nameClass != null) {
                     System.out.println(nameClass);
+                    numbers++;
                 }
             }
-
+            System.out.println(numbers);
             //model.write(System.out, "RDF/XML-ABBREV");
         }catch (Exception e) {
             e.printStackTrace();
