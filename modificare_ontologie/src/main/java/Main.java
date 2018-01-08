@@ -1,17 +1,16 @@
 import com.hp.hpl.jena.ontology.*;
 import com.hp.hpl.jena.rdf.model.*;
-import com.hp.hpl.jena.rdf.model.Literal;
-import com.hp.hpl.jena.rdf.model.Statement;
-import com.hp.hpl.jena.rdf.model.StmtIterator;
+
 import java.io.*;
 import java.util.*;
+
 
 public class Main {
 
     public static void main(String args[]) {
         readOntology();
-        //createOntology();
-        //writeOntology();
+        createOntology();
+        writeOntology();
     }
 
     static void readOntology() {
@@ -31,7 +30,7 @@ public class Main {
                 String uri = ontClass.getURI();
                 String nameClass = ontClass.getLocalName();
                 if (uri != null) {
-                    ;//System.out.println(uri);
+                    System.out.println(uri);
                 }
                 if (nameClass != null) {
                     System.out.println(nameClass);
@@ -39,7 +38,7 @@ public class Main {
                 }
             }
             System.out.println(numbers);
-            //model.write(System.out, "RDF/XML-ABBREV");
+            model.write(System.out, "RDF/XML-ABBREV");
         }catch (Exception e) {
             e.printStackTrace();
         }
