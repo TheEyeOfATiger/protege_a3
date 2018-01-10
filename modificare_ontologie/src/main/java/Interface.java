@@ -15,7 +15,7 @@ public class Interface {
         System.out.println("Type 'q' to skip a step...");
         Scanner input = new Scanner(System.in);
         int sw = 0;
-/*
+
         System.out.println("Class : Ontology");
         while (sw == 0) {
             System.out.println("Add a class name :");
@@ -63,7 +63,7 @@ public class Interface {
                 sw = 1;
             }
         }
-*/
+
         System.out.println("Add SubClass : Ontology");
         sw = 0;
         while (sw == 0) {
@@ -76,7 +76,7 @@ public class Interface {
                 sw = 1;
             }
         }
-/*
+
         System.out.println("Search a Specific Class : Ontology");
         sw = 0;
         while (sw == 0) {
@@ -202,6 +202,7 @@ public class Interface {
         System.out.println(verifyIfIndividualExist("decan"));
         System.out.println(verifyIfIndividualExist("profesor"));
 
+
         System.out.println("Add Disjoint With for a Class");
         addDisjointWithClass("beniamin");
 
@@ -248,7 +249,9 @@ public class Interface {
         System.out.println("Show the Properties of a Class");
         getPropertiesOfClass("beniamin");
 
-*/
+        System.out.println(searchDataProperty("volume"));
+        System.out.println(searchObjectProperty("tip_de"));
+
 
         //close the Scanner
         input.close();
@@ -268,6 +271,38 @@ public class Interface {
             if (!nameClass.equals(null)) {
                 return nameClass;
             }
+        }
+
+        return "Not Exist";
+    }
+
+    static String searchDataProperty(String newDataProperty) {
+        OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+        String filename = "ontology.owl";
+        InputStream in = FileManager.get().open(filename);
+        model.read(in, null);
+        String uriBase = "http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12";
+
+        if (verifyIfDataPropertyExist(newDataProperty) == true) {
+            DatatypeProperty ontProperty = model.getDatatypeProperty(uriBase + "#" + newDataProperty);
+            String nameProperty = ontProperty.getLocalName();
+            return nameProperty;
+        }
+
+        return "Not Exist";
+    }
+
+    static String searchObjectProperty(String newObjectProperty) {
+        OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+        String filename = "ontology.owl";
+        InputStream in = FileManager.get().open(filename);
+        model.read(in, null);
+        String uriBase = "http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12";
+
+        if (verifyIfObjectPropertyExist(newObjectProperty) == true) {
+            ObjectProperty ontProperty = model.getObjectProperty(uriBase + "#" + newObjectProperty);
+            String nameProperty = ontProperty.getLocalName();
+            return nameProperty;
         }
 
         return "Not Exist";
@@ -550,13 +585,17 @@ public class Interface {
             OntClass ontClass = model.getOntClass(uriBase + "#" + newClass);
             Scanner scanner = new Scanner(System.in);
 
+            System.out.println("Add Version Info");
             String versionInfo = scanner.next();
             ontClass.addVersionInfo(versionInfo);
 
+            System.out.println("Add Comment");
             String comment = scanner.next();
             ontClass.addComment(comment, null);
 
+            System.out.println("Add a Class Name");
             String nameClass1 = scanner.next();
+            System.out.println("Add a ObjectProperty Name");
             String nameProperty1 = scanner.next();
             OntClass ontClass1 = model.getOntClass(uriBase + "#" + nameClass1);
             ObjectProperty ontProperty1 = model.getObjectProperty(uriBase + "#" + nameProperty1);
@@ -564,10 +603,13 @@ public class Interface {
                     model.createSomeValuesFromRestriction(null, ontProperty1, ontClass1);
             ontClass.addIsDefinedBy(isDefinedBy);
 
+            System.out.println("Add Label");
             String label = scanner.next();
             ontClass.addLabel(label, null);
 
+            System.out.println("Add a Class Name");
             String nameClass2 = scanner.next();
+            System.out.println("Add a ObjectProperty Name");
             String nameProperty2 = scanner.next();
             OntClass ontClass2 = model.getOntClass(uriBase + "#" + nameClass2);
             ObjectProperty ontProperty2 = model.getObjectProperty(uriBase + "#" + nameProperty2);
@@ -669,10 +711,8 @@ public class Interface {
         String filename = "ontology.owl";
         InputStream in = FileManager.get().open(filename);
         model.read(in, null);
-        String uriRoot = "http://www.w3.org/2002/07/owl";
 
-        OntClass ontClass = model.getOntClass(uriRoot + "#Thing");
-        Iterator propIter = ontClass.listDeclaredProperties();
+        Iterator propIter = model.listDatatypeProperties();
 
         ArrayList<String> list = new ArrayList<String>();
         while (propIter.hasNext()) {
