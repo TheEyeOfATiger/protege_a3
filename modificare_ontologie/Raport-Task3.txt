@@ -11,9 +11,19 @@ Membri : 1) Mihalcea Alexandra
 	-	RAPORT DE ACTIVITATE   -
 	----------------------------
 
+
+REQUIREMENTS : Realizarea unui program capabil sa lucreze cu o ontologie.
+          -> Programul trebuie sa poate adauga noi clase in ontologia noastra, sa poate adauga proprietati pentru acele clase cat si indivizi (obiecte de tip Individual, instante ale claselor pe scurt). Programul trebuie sa verifice existenta tuturor datelor importante din ontologia noastra, de exemplu existenta unei clase, sau a altor proprietati sau instante.
+          -> Afisarea tuturor informatiilor din ontologia pentru a sti ce avem si pentru a ne realiza o oarecare schema dupa care sa putem intelege ontologia si respectiv sa o modificam cat mai usor. 
+          -> Adaugarea unor date suplimentare despre anumite entitati din ontologie, precum adnotari(VersionInfo, seeAlso, Label, Comment, isDefinedBy) sau descrieri(Equivalent To, Range, Domain, DisjointWith).
+          -> Programul trebuie sa poate adauga subclase, sa poata asigna proprietati claselor mai noi sau mai vechi, etc..  
+
+SOLVE : Pentru toate probleme descrise mai sus (plus altele), am realizat cate o functie
+        care sa rezolve o anumita parte din acest program in care noi sa putem modifica ontologia cu usurinta.
+
 -------------------------------
 Jitca Beniamin :
-	- raport de activitate
+	- realizarea raportului de activitate
 	- integrarea functiilor intr-un mini program in care putem
 	  modifica ontologia; respectiv testarea functionarii corecte a functiilor
 
