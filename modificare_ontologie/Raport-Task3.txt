@@ -1,0 +1,72 @@
+Task 3 : Modificarea unei Ontologii
+
+Membri : 1) Mihalcea Alexandra
+         2) Vasiliu Paula
+         3) Varvaroi Theodora
+         4) Prisecaru Codrina
+         5) Corniciuc Oana
+         6) Jitca Beniamin
+
+	----------------------------
+	-	RAPORT DE ACTIVITATE   -
+	----------------------------
+
+-------------------------------
+Jitca Beniamin :
+	- raport de activitate
+	- integrarea functiilor intr-un mini program in care putem
+	  modifica ontologia; respectiv testarea functionarii corecte a functiilor
+
+	- adaugare descriere DisjointWith pentru o clasa : addDisjointWithClass()
+	- adaugare descrieri pentru ObjectProperty : addDescriptionForObjectProperties()
+	- adaugare descrieri pentru DataProperty : addDescriptionForDataProperties()
+	- adaugare adnotari pentru Class : addAnnotationForClass()
+	- adaugare adnotari pentru ObjectProperty (VersionInfo, seeAlso, Label, Comment, isDefinedBy) : addAnnotationForObjectProperty()
+	- adaugare descrieri pentru DataProperty (VersionInfo, seeAlso, Label, Comment, isDefinedBy) : addAnnotationForDataProperty()
+	- adaugare descrieri pentru Individual (VersionInfo, seeAlso, Label, Comment, isDefinedBy) :  addAnnotationForIndividual()
+	- puncte comune intre clase : IntersectionUnionComplement()
+	- afiseaza proprietatile unei clase : getPropertiesOfClass()
+	- afiseaza Range-ul unei proprietati de tip ObjectProperty : getRangeOfObjectProperty()
+	- adaugare proprietate noua de tip ObjectProperty : addObjectPropertyToOntology()
+	- afisarea Super Claselor unei Clase : getSuperClassesOfClass()
+	- afisarea Domeniului unei proprietati de tip ObjectProperty : getDomainOfObjectProperty()
+	- functie care salveaza modificarile aduse unei ontologii : writeToOntology()
+
+-------------------------------
+Mihalcea Alexandra :
+	- cautarea unei proprietati de tip ObjectProperty, si afisarea ei : searchObjectProperty()
+	- cautarea unei proprietati de tip DataProperty, si afisarea ei : searchDataProperty()
+	- adaugarea unei clase noi in ontologie : addClassToOntology()
+	- verificarea existentei unei clase in ontologie : verifyIfClassExist()
+	- afisarea tuturor claselor din ontologie : getClassList()
+	- afisarea tuturor proprietatilor de tip ObjectProperty : getObjectPropertyList()
+
+-------------------------------
+Theodora Varvaroi :
+	- cautarea unei clase, si afisarea ei : searchClassInOntology()
+	- verificarea existentei unei proprietati(ObjectProperty) in ontologie :  verifyIfObjectPropertyExist()
+	- asignarea unei proprietati(ObjectProperty) unei clase : assignedObjectPropertyToClass()
+	- functie care verifica daca o clasa este radacina : verifyIfClassIsRoot()
+
+-------------------------------
+Prisecaru Codrina :
+	- verificarea existentei unui Individual : verifyIfIndividualExist()
+	- adaugarea unui Individual nou in Ontologie : addIndividualToOntology()
+	- afisarea proprietatile de tip DataProperty : getDataPropertyList()
+	- afisarea URI unei clase : retrieveOntologyClasses()
+
+-------------------------------
+Vasiliu Paula :
+	- afiseaza SubClasele unei Clase : getSubClassesOfClass()
+	- adaugarea unei subclase in ontologie : addSubClassInOntology()
+	- afisarea Range-ul unei proprietati de tip DataProperty : getRangeOfDataProperty()
+	- afisarea Domeniului unei proprietati de tip DataProperty : getDomainOfDataProperty()
+
+-------------------------------
+Corniciuc Oana :
+	- verificarea existentei unei proprietati(DataProperty) : verifyIfDataPropertyExist()
+	- adaugarea unei proprietati de tip DataProperty : addDataPropertyToOntology()
+	- afisarea instantelor unei ontologii : getIndividualList()
+	- afisarea instantelor unei clase : getInstanceOfClass()
+
+-------------------------------
