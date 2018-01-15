@@ -1,0 +1,1467 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#"
+     xml:base="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#adapostite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#adapostite">
+        <rdfs:comment>Măduva spinării şi coada de cal, învelite în teaca durală, sunt adăpostite de canalul vertebral.</rdfs:comment>
+        <rdfs:label>adapostite</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#areLocated -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#areLocated">
+        <rdfs:label>areLocated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#asupra -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#asupra">
+        <rdfs:label>asupra</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#caracterizataPrin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#caracterizataPrin">
+        <rdfs:label>caracterizataPrin</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determina -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determina">
+        <rdfs:label>determina</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determinate_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determinate_de">
+        <rdfs:label>determinate_de</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#etapa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#etapa">
+        <rdfs:label>etapa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hasProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hasProperty">
+        <rdfs:label>hasProperty</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#invelite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#invelite">
+        <rdfs:label>invelite</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a">
+        <rdfs:label>is_a</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#knownAs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#knownAs">
+        <rdfs:label>knownAs</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#sePrezinta -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#sePrezinta">
+        <rdfs:label>sePrezinta</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#takeNameOfLevel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#takeNameOfLevel">
+        <rdfs:label>takeNameOfLevel</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tip_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tip_de">
+        <rdfs:label>tip_de</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#withForm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#withForm">
+        <rdfs:label>withForm</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#arie -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#arie"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Anestezie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Anestezie">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#areLocated"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teritoriu_Radicular"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#sePrezinta"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Intrerupere"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Intrerupere"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Areflexie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Areflexie">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#areLocated"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teritoriu_Radicular"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#sePrezinta"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Intrerupere"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Intrerupere"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Automatisme_Spinale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Automatisme_Spinale">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Paralizia"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Paralizia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Brown-Sequard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Brown-Sequard">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#knownAs"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#compresiune_laterala"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindroame_clinice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Patologia_Vertebromedulara_neurochirurgicala"/>
+        <rdfs:isDefinedBy>canal îngust şi rigid</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Coada_de_Cal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Coada_de_Cal">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#adapostite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#invelite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teaca_Durala"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teaca_Durala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Acuta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Acuta">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tip_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara_Totala"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara_Totala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tip_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara_Partiala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara_Partiala">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tip_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara_Totala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara_Totala">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tip_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Radiculara -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Radiculara">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tip_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_lent_progesiva -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_lent_progesiva">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Automatisme_Spinale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#asupra"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Coada_de_Cal"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#asupra"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Maduva_Spinarii"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#asupra"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Radacini_Nervoase"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Criteriu_Clinic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Criteriu_Clinic">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tip_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#asupra"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determina"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#asupra"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Coada_de_Cal"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determina"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#asupra"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Maduva_Spinarii"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determina"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#asupra"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Radacini_Nervoase"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determina"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tip_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_Deficitului_Partial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_Deficitului_Partial">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#knownAs"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Compresiune_Propriu-Zisa"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Radiculara"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_Deficitului_Total -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_Deficitului_Total">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#knownAs"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Intrerupere"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Radiculara"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_Iritativa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_Iritativa">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#etapa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Radiculara"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Radiculara"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Compresiune_Propriu-Zisa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Compresiune_Propriu-Zisa">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#etapa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Radiculara"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#knownAs"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_Deficitului_Partial"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Radiculara"/>
+        <rdfs:isDefinedBy>Faza_Deficitului_Partial</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Intrerupere -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Intrerupere">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#etapa"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Radiculara"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#knownAs"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_Deficitului_Total"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Radiculara"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Imagistica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Imagistica">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Criteriu_Clinic"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Criteriu_Clinic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Maduva_Spinarii -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Maduva_Spinarii">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#adapostite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#invelite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teaca_Durala"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teaca_Durala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Neuro-Radiologice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Neuro-Radiologice">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Criteriu_Clinic"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Criteriu_Clinic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Paralizia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Paralizia">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tip_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara_Totala"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara_Totala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Paralizie_Radiculara -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Paralizie_Radiculara">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#areLocated"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teritoriu_Radicular"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#sePrezinta"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Intrerupere"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Intrerupere"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Patologia_Vertebromedulara_neurochirurgicala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Patologia_Vertebromedulara_neurochirurgicala">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:isDefinedBy>Sindromul de compresiune radiculomedulara
+Sindromul de coada de cal</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Radacini_Nervoase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Radacini_Nervoase">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#adapostite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Semnul_Babinski -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Semnul_Babinski">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Paralizia"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Paralizia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindroame_clinice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindroame_clinice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara_Partiala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tip_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teaca_Durala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teaca_Durala">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#adapostite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teritoriu_Radicular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teritoriu_Radicular">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#adapostite"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determina"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#simptomatologie"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#beni -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#beni"/>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#beniamin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#beniamin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#cervicobrahialgie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#cervicobrahialgie">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#nivele"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#nivele"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#complet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#complet">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determinate_de"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#compresiune_anterioara -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#compresiune_anterioara">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindroame_clinice"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindroame_clinice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#compresiune_centromedulara -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#compresiune_centromedulara">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindroame_clinice"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindroame_clinice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#compresiune_laterala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#compresiune_laterala">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindroame_clinice"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#knownAs"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Brown-Sequard"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindroame_clinice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#compresiune_posterioara -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#compresiune_posterioara">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindroame_clinice"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindroame_clinice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#deficit_senzitiv -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#deficit_senzitiv">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#areLocated"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determinate_de"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#neuron_motor_periferic"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#neuron_motor_periferic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#dureri_de_tip_nevralgic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#dureri_de_tip_nevralgic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_Iritativa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#formarea_de_osteofite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#formarea_de_osteofite">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hematoame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hematoame">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hernii_ale_materialului_discal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hernii_ale_materialului_discal">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hipertonie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hipertonie">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#spastica"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#withForm"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#lama_de_briceag"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#spastica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hipoestezie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hipoestezie">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#areLocated"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teritoriu_Radicular"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Compresiune_Propriu-Zisa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hiporeflexie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hiporeflexie">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#areLocated"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teritoriu_Radicular"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Compresiune_Propriu-Zisa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#incomplet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#incomplet">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determinate_de"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#incontinenta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#incontinenta">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tulburari_sfincteriene"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tulburari_sfincteriene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#ingust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#ingust">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#lama_de_briceag -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#lama_de_briceag">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hipertonie"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hipertonie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#lombocruralgie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#lombocruralgie">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#nivele"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#nivele"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#lombosciatica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#lombosciatica">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#nivele"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#nivele"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#motorie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#motorie">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#para/tetraplegie"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#para/tetraplegie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#neuron_motor_periferic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#neuron_motor_periferic">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determinate_de"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#nevralgie_intercostala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#nevralgie_intercostala">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#nivele"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#nivele"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#nivele -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#nivele">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#areLocated"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_Iritativa"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#takeNameOfLevel"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#dureri_de_tip_nevralgic"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#dureri_de_tip_nevralgic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#parapareza_flasca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#parapareza_flasca">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#areLocated"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determinate_de"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#neuron_motor_periferic"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#neuron_motor_periferic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#pareza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#pareza">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#areLocated"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teritoriu_Radicular"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Faza_de_Compresiune_Propriu-Zisa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#partial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#partial">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determinate_de"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#partiala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#partiala">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#simptomatologie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#reflexe_osteotendinoase_vii -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#reflexe_osteotendinoase_vii">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Paralizia"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Paralizia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#retentie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#retentie">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tulburari_sfincteriene"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tulburari_sfincteriene"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#rigid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#rigid">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Canalul_Vertebral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#senzitiva -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#senzitiva">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#para/tetraplegie"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#para/tetraplegie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#simptomatologie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#simptomatologie">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teritoriu_Radicular"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Teritoriu_Radicular"/>
+        <rdfs:isDefinedBy>Determinata de intrepatrunderea teritoriilot radiculare, si care este adesea partiala</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#spastica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#spastica">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Paralizia"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#sePrezinta"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#hipertonie"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Paralizia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#sub_nivelul_leziunii -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#sub_nivelul_leziunii">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#motorie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#total -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#total">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determinate_de"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiuni"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Sindrom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tulburari_sfincteriene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tulburari_sfincteriene">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#caracterizataPrin"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Acuta"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara_Totala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tumori -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tumori">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#unele_infectii -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#unele_infectii">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#alunecari/dislocari_osoase_traumatice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#alunecari/dislocari_osoase_traumatice">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#is_a"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Factori"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#para/tetraplegie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#para/tetraplegie">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#caracterizataPrin"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Acuta"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Medulara_Totala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tetra/paraplegie_flasca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tetra/paraplegie_flasca">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determinate_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Acuta"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Acuta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tetra/paraplegie_spastica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#tetra/paraplegie_spastica">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#determinate_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Acuta"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#Compresiune_Acuta"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#ben -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#ben">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#beniamin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#profesor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#profesor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#beniamin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#student -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#student">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#beni"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#x_men -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#x_men">
+        <rdf:type rdf:resource="http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12#beni"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
