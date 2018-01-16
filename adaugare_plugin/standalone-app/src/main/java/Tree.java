@@ -61,6 +61,16 @@ public class Tree extends JFrame {
                 String wordSelected = Proiect.getNameSelected();
                 wordSelected = wordSelected.trim();
 
+                //Inlocuirea spatiului din cuvantul selectat cu "_"
+                StringBuilder sb = new StringBuilder();
+
+                String[] splitText = wordSelected.split(" ");
+                for (String text : splitText) {
+                    sb.append(text + "_");
+                }
+                sb.replace(sb.length() - 1, sb.length(), "");
+                wordSelected = sb.toString();
+
                 TreePath[] paths = tree.getSelectionPaths();
                 String lastWord = null;
                 String[] middle = null;
