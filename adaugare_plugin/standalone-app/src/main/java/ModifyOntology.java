@@ -8,6 +8,28 @@ import java.io.*;
 
 public class ModifyOntology {
 
+    public static ArrayList<String> getOntologyElements() {
+        //Eliminare caracterului "_" din numele elementelor din ontologie
+        ArrayList<String> listElements = new ArrayList<String>();
+        ArrayList<String> lista = getClassList();
+
+        for (int iterator = 0; iterator < lista.size(); iterator++) {
+            String element = lista.get(iterator);
+            StringBuilder sb = new StringBuilder();
+
+            String[] splitText = element.split("_");
+            for (String text : splitText) {
+                sb.append(text + " ");
+            }
+            sb.replace(sb.length() - 1, sb.length(), "");
+            String input = sb.toString();
+
+            listElements.add(input);
+        }
+
+        return listElements;
+    }
+
     public static void addClassToOntology(String newClass) {
         OntModel model = setupConfiguration();
         String uriBase = "http://www.semanticweb.org/beniamin/ontologies/2017/11/untitled-ontology-12";
@@ -253,7 +275,7 @@ public class ModifyOntology {
         return false;
     }
 
-
+    // Schimba numele fisierului
     public static OntModel setupConfiguration() {
         OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
         String filename = "ontology.owl";
