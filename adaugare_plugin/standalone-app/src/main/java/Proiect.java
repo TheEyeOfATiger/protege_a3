@@ -31,7 +31,7 @@ public class Proiect{
     }
 
     public void start() throws BadLocationException {
-        final ArrayList<String> listaClase = ModifyOntology.getClassList();
+        final ArrayList<String> listaClase = ModifyOntology.getOntologyElements();
 
         final JTextPane jTextPane = new JTextPane();
         JButton selectFile = new JButton("Open File");
