@@ -8,6 +8,7 @@ Implementarea a fost facuta in limbajul Python , sistemul de operare - windows s
 4.Gherman Dan  <br/>
 5.Vanatoru Razvan <br/>
 6. Pintilie Cosmin <br/>
+7. Purice Ciprian
 
 ## Folosirea tool LEMA (POS TAGGER)
 
