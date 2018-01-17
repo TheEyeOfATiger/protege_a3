@@ -1,11 +1,13 @@
 # Validare text
-Scurta descriere ...
+Task-urile modulului au fost: cautarea unui dictionar in romana cu cuvinte care contin dicritice, documentarea despre un spellcheker care sa utilizeze cuvintele romanesti (avand diacritice), implementarea codului pentru modulul de validare, raportul de activitate pentru grupa de validare,adaugarea de cuvinte noi in dictionar.
+Implementarea a fost facuta in limbajul Python , sistemul de operare - windows si linux.
 ## Echipa este formata din:
-1.Maftei Ervin <br/>
-2.Negrus Bogdan <br/>
+1.Apetrei Alin Cosmin <br/>
+2.Arvinte Rareș <br/>
 3.Ionesei Gabriel <br/>
-4.Arvinte Rares <br/>
-5.Vanatoru Razvan
+4.Gherman Dan  <br/>
+5.Vanatoru Razvan <br/>
+6. Pintilie Cosmin <br/>
 
 ## Folosirea tool LEMA (POS TAGGER)
 
