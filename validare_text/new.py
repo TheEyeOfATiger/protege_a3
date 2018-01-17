@@ -4,10 +4,10 @@ import re
 import enchant
 import enchant.checker
 
-default_path = r'D:\Facultate\an 3 sem 1\AI\AI Spellchecker\AI Spellchecker\fisier.txt'
-output_path = r'D:\Facultate\an 3 sem 1\AI\AI Spellchecker\AI Spellchecker\corectat.txt'
-new_dict = r'D:\Facultate\an 3 sem 1\AI\AI Spellchecker\AI Spellchecker\nou_dict.txt'
-default_dictionary = r'D:\Facultate\an 3 sem 1\AI\AI Spellchecker\AI Spellchecker\lista-ro.txt'
+default_path = 'fisier.txt'
+output_path = 'corectat.txt'
+new_dict = 'nou_dict.txt'
+default_dictionary = 'lista-ro.txt'
 ee = enchant.DictWithPWL("ro_RO", default_dictionary)
 chkr = enchant.checker.SpellChecker("ro_RO")
 
@@ -89,6 +89,4 @@ def correct_text(path=default_path, out_path=output_path,auto=True):
 
 if __name__ == "__main__":
     # update_dict()
-    # correct_text()
-    with open(r"D:\Facultate\an 3 sem 1\AI\AI Spellchecker\AI Spellchecker\1.hic procese expansive hidrocefalie 2012_corr.doc","r",encoding="utf-8") as content:
-        print(content.read())
+    correct_text()
