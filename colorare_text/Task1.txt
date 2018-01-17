@@ -1,0 +1,6 @@
+Task 1:
+-colorare text - Moisă Eduard-Gabriel, Negruș Bogdan-Andrei
+-selectare text si adaugare, functionalitati butoane - Moisă Eduard-Gabriel,  Negruș Bogdan-Andrei
+-interfata - Corneanu Cosmina, Carp Paula
+-parser fisier text - Bodnar Ana-Maria, Popa Anca
+
