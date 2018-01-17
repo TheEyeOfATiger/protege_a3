@@ -1,0 +1,23 @@
+Task 4 : Crearea unei Ontologii
+
+Membri : 1) Arvinte Rares
+         2) Purice Ciprian-Dumitru
+         3) Jitca Beniamin
+
+	----------------------------
+	-   RAPORT DE ACTIVITATE   -
+	----------------------------
+
+REQUIREMENTS : Realizarea unei mici ontologii dintr-un text medical in protege. Clasele reprezinta concepte, in care mai avem si alte entitati
+	       , spre exemplu adaugare de modificari asupra conceptelor (annotation, description etc) 
+              
+-----------------------
+Arvinte Rares : -> analiza textului
+		-> listarea conceptelor din text
+
+Purice Ciprian-Dumitru : -> relatiile dintre concepte
+			 -> realizare schema logica
+
+Jitca Beniamin : -> realizare ontologie in protege (conceptelor si a relatiilor dintre acestea)
+                 -> raport de activitate
+ 
